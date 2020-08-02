@@ -30,7 +30,7 @@ function renderInfo(user) {
         $('.layui-nav-img').show().attr('src', user.user_pic)
 
     } else {
-        $('.text-avatar').show().html(toUpperCase(uname[0]))
+        $('.text-avatar').show().html(uname[0].toUpperCase())
         $('.layui-nav-img').hide()
     }
 
